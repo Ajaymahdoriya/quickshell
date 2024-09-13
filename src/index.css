@@ -1,13 +1,81 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.p-10 {
+  padding: 5px 10px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.color-grey {
+  color: gray;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-gap-10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.loadingContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.loadingText {
+  color: green;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.taskCard {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.priority-0 {
+  background-color: #f0f0f0;
+}
+
+.priority-1 {
+  background-color: #e0f7fa;
+}
+
+.priority-2 {
+  background-color: #b9fbc0;
+}
+
+.priority-3 {
+  background-color: #ffeb3b;
+}
+
+.priority-4 {
+  background-color: #f44336;
 }
